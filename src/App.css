@@ -1,8 +1,29 @@
+/* === App styling === */
+
 .app-style {
   width: 100%;
   padding: 2rem;
   height: auto;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: #9da1aa;
+}
+
+.error-message {
+  color: #b00020;
+  background-color: #ffe6e6;
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+  border-left: 4px solid #b00020;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* === Form Card styling === */
 
 .form-card {
   max-width: 660px;
@@ -23,6 +44,8 @@
   font-size: 1.7em;
   font-weight: 400;
 }
+
+/* === State Summary styling === */
 
 .state-summary {
   margin: 2rem auto 0;
@@ -59,19 +82,7 @@
   margin-bottom: 0.3rem;
 }
 
-.data-note {
-  font-size: 0.9rem;
-  line-height: 1.4;
-  color: #666;
-  background-color: #f5f5f5;
-  padding: 1rem;
-  border-left: 4px solid #ccc;
-  border-radius: 4px;
-}
-
-.data-note p {
-  margin: 0.5rem;
-}
+/* === State Form styling === */
 
 .state-form {
   display: flex;
@@ -108,25 +119,25 @@
   border: 1px solid #fff;
 }
 
-.error-message {
-  color: #b00020;
-  background-color: #ffe6e6;
-  padding: 0.75rem 1rem;
-  margin-top: 1rem;
-  border-left: 4px solid #b00020;
+/* === Data Note styling === */
+
+.data-note {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #666;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-left: 4px solid #ccc;
   border-radius: 4px;
-  font-weight: 500;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  color: #9da1aa;
+.data-note p {
+  margin: 0.5rem;
 }
+
+/* === Responsive layout for small screens === */
 
 @media (max-width: 600px) {
-
   .app-style,
   .app-style main {
     padding: 1rem;
@@ -143,5 +154,10 @@ footer {
 
   .state-form {
     margin-bottom: 1rem;
+  }
+
+  .state-summary li {
+    line-height: normal;
+    margin-bottom: 0.5rem;
   }
 }
