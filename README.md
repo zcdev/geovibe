@@ -10,7 +10,7 @@ GeoVibe lets you explore U.S. Census data to better understand the population, i
 
 GeoVibe is a single-page application that displays demographic data from the U.S. Census Bureau. Users can enter the name of any U.S. state at the form to view statistics on population, median income, age distribution, gender breakdown, and racial diversity.
 
-The project is a complete rebuild of an [earlier JavaScript-based version](https://github.com/zcdev/GeoVibe-old), modernized now using React and Vite. It’s designed to be simple, responsive, and accessible to make geodemographical insights approachable for everyday users.
+The project is a complete rebuild of an [earlier JavaScript-based version](https://github.com/zcdev/GeoVibe-old), modernized now using React and Vite. It’s designed to be simple, responsive, and accessible to make geodemographic insights approachable for everyday users.
 
 The custom background artwork was also designed specifically for this app to reflect the theme of diversity, community, and geography.
 
@@ -42,12 +42,12 @@ The custom background artwork was also designed specifically for this app to ref
 - **React** – Component-based UI library
 - **Vite** – Fast dev server and bundler
 - **JavaScript (ES6+)** – App logic and interactivity
-- **HTML5** - For semantic structure and datalist
+- **HTML5** – For semantic structure and datalist
 - **CSS3** – Custom styles, responsive layout, and theming
 - **U.S. Census Bureau API** – ACS 2023 demographic data source
 - **Vercel** – Hosting and deployment
-- **Sketch App** - For vector graphic illustrations
-- **Photoshop** - For app background image production
+- **Sketch App** – For vector graphic illustrations
+- **Photoshop** – For app background image production
 
 ## Getting Started (for Dev)
 
@@ -76,6 +76,6 @@ No cookies are used and no personal information is collected, only anonymous usa
 
 - **[U.S. Census Bureau API](https://www.census.gov/data.html)** – American Community Survey (2023) data
 - **[Vecteezy.com](https://www.vecteezy.com)** – Resource for the vector graphic assets
-- **[OpenAI's ChatGPT](https://chatgpt.com)** – Assisted with design feedback, code reviews, best practices, and copywriting
+- **[OpenAI's ChatGPT](https://chatgpt.com)** – Assisted with design feedback, code reviews, best practices, and copywriting 😏
 
 Created by ZCDEV — Designed, developed, and deployed with ❤️‍🔥
