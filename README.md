@@ -1,81 +1,47 @@
 # GeoVibe
 
-**Get the <em>vibe</em> of your state.**
+[![React.js](https://img.shields.io/badge/React.js-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com/)
 
-GeoVibe lets you explore U.S. Census data to better understand the population, income, age, and diversity across all 50 states.
-
-🔗 **Live Demo:** [https://geovibe.vercel.app](https://geovibe.vercel.app)
+## 🌐 Live Demo
+Find out here: [https://geovibe.vercel.app](https://geovibe.vercel.app) — select a state to feel the vibe!
 
 ## Overview
 
-GeoVibe is a single-page application that displays demographic data from the U.S. Census Bureau. Users can enter the name of any U.S. state at the form to view statistics on population, median income, age distribution, gender breakdown, and racial diversity.
+**Deliverable:** A user-friendly single-page web app built with React.js. Helps users explore U.S. Census data and gain insights into population, income, age, and diversity across all 50 states.
 
-The project is a complete rebuild of an [earlier JavaScript-based version](https://github.com/zcdev/GeoVibe-old), modernized now using React and Vite. It’s designed to be simple, responsive, and accessible to make geodemographic insights approachable for everyday users.
+**Purpose:** To make it easy for anyone to learn about the people and demographics that shape each U.S. state.
 
-The custom background artwork was also designed specifically for this app to reflect the theme of diversity, community, and geography.
+## 🛠️ Tech Stack
+- **Framework:** React.js
+- **Language:** JavaScript (ES6+)
+- **APIs / Libraries:** U.S. Census Bureau API (2023 ACS)
+- **Deployment:** Vercel
 
-## Features
+## ✨ Features
+- Autocomplete input with state-based suggestions for instant lookup
+- Real-time Census API integration using the 2023 American Community Survey (ACS)
+- Key demographic insights: population, median income, age, gender, and race/ethnicity
+- Custom background artwork reflecting themes of community, diversity, and geography
+- Dark mode support that adapts to system preferences for eye comfort
+- Responsive design optimized for desktop and mobile with full keyboard accessibility
+- Error handling that gracefully notifies users of invalid input or fetch issues
+- Vercel Web Analytics and Speed Insights implemented for monitoring performance and user interaction trends
 
-🔍 **State-based input with autocomplete**
-<br />Enter the name of any U.S. state at the form to retrieve data instantly
 
-🌐 **Census API integration**
-<br />Retrieves official 2023 American Community Survey (ACS) data in real time from the U.S. Census Bureau
+## ⚡ Getting Started
+```
+git clone https://github.com/zcdev/geovibe.git
+cd geovibe
+```
 
-📊 **Key demographic insights**
-<br />Total population, median income, age, gender, and race/ethnicity breakdowns
-
-🎨 **Custom background artwork**
-<br />Designed to reflect the theme of community, diversity, and geography
-
-🌙 **Dark mode friendly**
-<br />Adapts to system preferences for improved accessibility with eye comfort
-
-📱 **Responsive & accessible design**
-<br />Optimized for desktop and mobile with keyboard-friendly form
-
-⚠️ **Error handling**
-<br />Gracefully notifies users of invalid input or fetch issues
-
-## Tech Stack & Creative Tools
-
-- **React** – Component-based UI library
-- **Vite** – Fast dev server and bundler
-- **JavaScript (ES6+)** – App logic and interactivity
-- **HTML5** – For semantic structure and datalist
-- **CSS3** – Custom styles, responsive layout, and theming
-- **U.S. Census Bureau API** – ACS 2023 demographic data source
-- **Vercel** – Hosting and deployment
-- **Sketch App** – For vector graphic illustrations
-- **Photoshop** – For app background image production
-
-## Getting Started (for Dev)
-
-To run GeoVibe locally:
-
-1. **Clone the repo**
-`git clone https://github.com/zcdev/geovibe.git` and then `cd geovibe`
-
-2. **Install dependencies**
-`npm install`
-
-3. **Start the dev server**
-`npm run dev`
-
-4. Visit http://localhost:5173 in your browser
-
-⚠️ Requires Node.js v18+ and Internet connection to fetch data from the U.S. Census API.
-
-## Metrics & Privacy
-
-GeoVibe uses Vercel Web Analytics and Speed Insights to monitor performance and user interaction trends.
-
-No cookies are used and no personal information is collected, only anonymous usage data is tracked to help improve GeoVibe's accessibility and user experience.
-
-## Acknowledgements
-
-- **[U.S. Census Bureau API](https://www.census.gov/data.html)** – American Community Survey (2023) data
+## 🙏 Credits
+- **[U.S. Census Bureau API](https://www.census.gov/data.html)** – American Community Survey (2023)
 - **[Vecteezy.com](https://www.vecteezy.com)** – Resource for the vector graphic assets
-- **[OpenAI's ChatGPT](https://chatgpt.com)** – Assisted with design feedback, code reviews, best practices, and copywriting 😏
+- **[OpenAI's ChatGPT](https://chatgpt.com)** – Assisted with design feedback, code reviews, best practices, and copywriting
 
-Created by ZCDEV — Designed, developed, and deployed with ❤️‍🔥
+Created by [Zoe Chang](https://github.com/zcdev)        
+Designed, developed, and deployed with ❤️‍🔥
+
+![GitHub repo size](https://img.shields.io/github/repo-size/zcdev/mytechiecookie)
+![GitHub last commit](https://img.shields.io/github/last-commit/zcdev/mytechiecookie)
