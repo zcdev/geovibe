@@ -5,7 +5,7 @@ export default function StateForm({ stateQuery, setStateQuery, setStateData, set
     ]
 
     // US Census 2023 ACS data GET request URL
-    const CENSUS_API_URL = 'https://api.census.gov/data/2023/acs/acsse?get=NAME,K200101_001E,K201905_001E,K200103_001E,K200101_002E,K200101_003E,K200201_002E,K200201_003E,K200201_004E,K200201_005E,K200201_006E,K200301_003E,K200201_007E,K200201_001E&for=state:*'
+    const CENSUS_API_URL = 'https://api.census.gov/data/2024/acs/acsse?get=NAME,K200101_001E,K201905_001E,K200103_001E,K200101_002E,K200101_003E,K200201_002E,K200201_003E,K200201_004E,K200201_005E,K200201_006E,K200301_003E,K200201_007E,K200201_001E&for=state:*'
 
     // Handle form submission
     async function handleSubmit(event) {

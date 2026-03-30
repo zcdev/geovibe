@@ -15,12 +15,12 @@ Find out here: [https://geovibe.vercel.app](https://geovibe.vercel.app) — sele
 ## Tech Stack
 - **Framework:** React.js
 - **Language:** JavaScript (ES6+)
-- **APIs / Libraries:** U.S. Census Bureau API (2023 ACS)
+- **APIs / Libraries:** U.S. Census Bureau API (2024 ACS)
 - **Deployment:** Vercel
 
 ## Features
 - Autocomplete input with state-based suggestions for instant lookup
-- Real-time Census API integration using the 2023 American Community Survey (ACS)
+- Real-time Census API integration using the 2024 American Community Survey (ACS)
 - Key demographic insights: population, median income, age, gender, and race / ethnicity
 - Custom background artwork reflecting themes of community, diversity, and geography
 - Dark mode support that adapts to system preferences for eye comfort
@@ -29,7 +29,7 @@ Find out here: [https://geovibe.vercel.app](https://geovibe.vercel.app) — sele
 - Vercel Web Analytics and Speed Insights implemented for monitoring performance and user interaction trends
 
 ## Assets
-- **[U.S. Census Bureau API](https://www.census.gov/data.html)** – American Community Survey (2023)
+- **[U.S. Census Bureau API](https://www.census.gov/data.html)** – American Community Survey (2024)
 - **[Vecteezy.com](https://www.vecteezy.com)** – Resource for the vector graphic assets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/zcdev/geovibe)
