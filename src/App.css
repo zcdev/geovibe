@@ -2,8 +2,12 @@
 
 .app-style {
   width: 100%;
-  padding: 2rem;
   height: auto;
+  margin-top: 2rem;
+}
+
+main {
+  margin: 1rem;
 }
 
 footer {
@@ -56,10 +60,6 @@ footer {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-.state-summary section {
-  margin-bottom: 1.5rem;
-}
-
 .state-summary h2 {
   margin-bottom: 1rem;
   font-size: 1.6rem;
@@ -75,7 +75,7 @@ footer {
 .state-summary ul {
   list-style-type: none;
   padding-left: 0;
-  margin: 0;
+  margin: 0 0 1.5rem;
 }
 
 .state-summary li {
@@ -138,9 +138,9 @@ footer {
 /* === Responsive layout for small screens === */
 
 @media (max-width: 600px) {
-  .app-style,
-  .app-style main {
-    padding: 1rem;
+  main {
+    width: 90%;
+    margin: auto;
   }
 
   .app-style header h1 {
