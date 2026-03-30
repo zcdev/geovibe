@@ -1,3 +1,6 @@
+import { useState } from "react";
+import ChartCanvas from "./ChartCanvas";
+
 export default function StateData({ stateData }) {
     // Destructure the Census data array into named variables
     const [
@@ -38,43 +41,35 @@ export default function StateData({ stateData }) {
 
     return (
         <div className="state-summary">
-            <section>
                 <h2>The <em>vibe</em> at {yourState}:</h2>
-            </section>
 
-            <section>
                 <h3>General Info</h3>
                 <ul>
                     <li>Total population: {totalPopulation}</li>
                     <li>Median income: ${medianIncome}</li>
                     <li>Median age: {medianAge} years</li>
                 </ul>
-            </section>
 
-            <section>
                 <h3>Gender Breakdown</h3>
                 <ul>
                     {genderBreakdown.map((item) => (
                         <li key={item.label}>{item.label}: {item.value}%</li>
                     ))}
                 </ul>
-            </section>
 
-            <section>
                 <h3>Race Breakdown</h3>
                 <ul>
                     {raceBreakdown.map((item) => (
                         <li key={item.label}>{item.label}: {item.value}%</li>
                     ))}
                 </ul>
-            </section>
+                <ChartCanvas className="chart" chart={raceBreakdown}
+                />
 
-            <section>
                 <h3>Ethnicity</h3>
                 <ul>
                     <li>Hispanic or Latino: {hispanicPercent}%</li>
                 </ul>
-            </section>
 
             <section className="data-note" aria-label="Demographic data explanation">
                 <p>Note: The U.S. Census defines "Hispanic or Latino" as an ethnicity, not a race.</p>
