@@ -14,7 +14,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  color: #9da1aa;
+  color: #000;
 }
 
 .error-message {
@@ -32,7 +32,7 @@ footer {
 .form-card {
   max-width: 660px;
   padding: 1.5rem 2.5rem 0.5rem;
-  background-color: rgba(157, 161, 170, 0.85);
+  background-color: rgb(64, 65, 68);
   border-radius: 8px;
 }
 
@@ -54,7 +54,7 @@ footer {
 .state-summary {
   margin: 2rem auto 0;
   padding: 1.5rem;
-  background-color: rgba(254, 254, 254, 0.9);
+  background-color: rgba(254, 254, 254, 1);
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -80,6 +80,7 @@ footer {
 
 .state-summary li {
   margin-bottom: 0.3rem;
+  font-size: 1rem;
 }
 
 /* === State Form styling === */
@@ -115,8 +116,9 @@ footer {
 }
 
 .state-form button:hover {
-  background-color: #555;
+  background-color: #c4b4ff;
   border: 1px solid #fff;
+  color: #000;
 }
 
 /* === Data Note styling === */
@@ -124,7 +126,7 @@ footer {
 .data-note {
   font-size: 0.9rem;
   line-height: 1.4;
-  color: #666;
+  color: #000;
   background-color: #f5f5f5;
   padding: 1rem;
   border-left: 4px solid #ccc;

@@ -33,6 +33,6 @@ export default function ChartCanvas({chart}) {
         ],
       };
     return (
-        <Doughnut data={data} />
+        <Doughnut data={data} title="Race Breakdown" />
     )
 }
