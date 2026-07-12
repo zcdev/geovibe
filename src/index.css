@@ -80,6 +80,10 @@ canvas {
     border: 1px solid #777;
     cursor: pointer;
   }
+
+  footer small {
+    color: white;
+  }
 }
 
 /* === Background size adjustment for smaller screens === */
